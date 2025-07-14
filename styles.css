@@ -514,59 +514,13 @@ body {
     }
 }
 
-/* Digital Literacy 2025 Summer Course @footer */
-.interactive-button-container {
-    display: inline-block;
-    text-align: center;
-    margin: 20px;
-    font-family: 'Segoe UI', sans-serif;
-}
-
-.button-description {
-    color: #555;
-    margin-bottom: 8px;
-    font-size: 0.9rem;
-}
-
-.interactive-button {
-    display: inline-flex;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #4285f4;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-    font-weight: 500;
-    transition: all 0.3s ease;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-.interactive-button:hover {
-    background-color: #3367d6;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-}
-
-.interactive-button:active {
-    transform: translateY(0);
-}
-
-.button-icon {
-    margin-left: 8px;
-    transition: transform 0.3s ease;
-}
-
-.interactive-button:hover .button-icon {
-    transform: translateX(3px);
-}
-
 /* floating action button Facebook Share at the corner of the footer*/
 /* https://codepen.io/neel2292/pen/bVLGMO */
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic&subset=latin,cyrillic);
 
 .fabs {
-  bottom: 0;
+  bottom: 80px;
   position: fixed;
   margin: 1em;
   right: 0;
