@@ -461,12 +461,12 @@ body {
 
 /* Special text styling */
 .metta {
-    color: #017900;
+    color: #02C500;
     font-weight: 600;
 }
 
 .passion {
-    color: #e74c3c;
+    color: #ff4430;
     font-weight: 600;
 }
 
@@ -477,12 +477,12 @@ body {
 }
 
 .karen {
-    color: #D7251E;
+    color: rgb(243, 55, 55);
     font-weight: 600;
 }
 
 .dl25 {
-    color: navy;
+    color: rgb(69, 100, 255);
     font-weight: 600;
 }
 
